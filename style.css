@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.box img {
+  width: 100px;
+  height: 100px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: skyblue;
+  flex-direction: column;
+  background-image: url(./2.jpg);
+  background-repeat: space;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  border-radius: 100px 10px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 50%), -10px -10px 12px rgb(0 0 0 / 50%);
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+input.modify:focus {
+  border-bottom: 2px solid deepskyblue;
+}
+input.modify::placeholder {
+  color: gold;
+  font-weight: bold;
+  opacity: 0.7;
+}
+input.modify {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid olive;
+}
+.box img {
+  margin-top: 29px;
+  transition: all 0.3s ease-out;
+}
+input[type='password'] {
+  margin-bottom: 45px;
+}
+.box:hover img {
+  transform: scale(1.5);
+}
+input {
+  width: 100%;
+}
+input[type='submit']:hover {
+  background: #000;
+  color: #fff;
+}
+input[type='submit'] {
+  margin-bottom: 50px !important;
+  background: olive;
+  width: 60%;
+  display: block;
+  margin-top: 30px;
+  height: 47px;
+  border-radius: 9px 30px;
+  cursor: pointer;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  font-weight: bold;
+  line-height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box input {
+  margin-bottom: 12px;
+  padding: 14px 12px;
+}
+.box p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: gold;
+}
+input[type='submit'] {
+  margin-bottom: 50px;
+}
+.validate-text {
+  color: red;
+  margin-left: 10px;
+}
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background: transparent;
+  -webkit-text-fill-color: darkblue;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+  font-weight: bold;
+}
+
+/* action page*/
+header#header-area {
+  background: #eee;
+}
+
+nav.menu-area ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+nav.menu-area ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav.menu-area ul li {
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.menu-area ul li:hover {
+  background: rebeccapurple;
+  cursor: pointer;
+}
+.col-12 {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col-4 {
+  flex-basis: 25%;
+}
+
+.col-8 {
+  flex-basis: 75%;
+}
+nav.footer-menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer#footer-area {
+  background: #888;
+  padding: 20px 0;
+}
+nav.footer-menu {
+  margin-right: 19px;
+}
+
+nav.footer-menu ul li {
+  margin-left: 23px;
+}
+
+nav.footer-menu ul li a {
+  color: #000;
+  text-decoration: none;
+}
+/* content*/
+section#content {
+    background: #333;
+    padding: 100px 0;
+}
+nav.left-navigation {
+    background: #fff;
+}
+
+nav.left-navigation ul li:hover {
+    background: #000;
+}
+
+nav.left-navigation ul li {
+    padding: 20px;
+    transition: all .3s ease-out;
+}
+
+nav.left-navigation ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+nav.left-navigation ul li:hover a {
+    color: #fff;
+}
