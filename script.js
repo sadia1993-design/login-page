@@ -20,15 +20,9 @@ loginForm.addEventListener('submit', function (e) {
     if (pass.trim() == '') {
       passField.classList.add('validate-text');
       passField.innerHTML = 'Password field must not be empty';
-    } 
-    else {
+    } else {
       passField.classList.remove('validate-text');
       passField.innerHTML = '';
     }
-  } else {
-    userField.classList.remove('validate-text');
-    passField.classList.remove('validate-text');
-    userField.innerHTML = '';
-    passField.innerHTML = '';
   }
 });
